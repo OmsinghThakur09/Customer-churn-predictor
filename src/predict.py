@@ -225,6 +225,30 @@ if __name__ == "__main__":
                 "PaymentMethod": "Bank transfer (automatic)",
                 "MonthlyCharges": 22.0, "TotalCharges": 1584.0
             }
+        },
+        {
+            "label": "Customer F  — Expected: ~50% borderline",
+            "data": {
+                "gender": "Male",
+                "SeniorCitizen": 0,
+                "Partner": "No",
+                "Dependents": "No",
+                "tenure": 16,
+                "PhoneService": "Yes",
+                "MultipleLines": "No",
+                "InternetService": "Fiber optic",
+                "OnlineSecurity": "No",
+                "OnlineBackup": "No",
+                "DeviceProtection": "No",
+                "TechSupport": "No",
+                "StreamingTV": "No",
+                "StreamingMovies": "No",
+                "Contract": "Month-to-month",
+                "PaperlessBilling": "Yes",
+                "PaymentMethod": "Mailed check",
+                "MonthlyCharges": 55.0,
+                "TotalCharges": 880.0
+            }
         }
     ]
 
