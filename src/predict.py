@@ -4,7 +4,6 @@ import json
 import numpy as np
 import pandas as pd
 import joblib
-import shap
 from pathlib import Path
 
 # paths
@@ -42,11 +41,11 @@ def get_risk_level(probability: float, threshold: float) -> str:
     :param threshold:
     :return:
     """
-    if probability >= 0.85:
+    if probability >= 0.80:
         return "CRITICAL"
-    elif 0.84 >= probability >= 0.70:
+    elif 0.79 >= probability >= 0.60:
         return "HIGH"
-    elif 0.69 >= probability >= 0.49:
+    elif 0.59 >= probability >= threshold:
         return "MEDIUM"
     else:
         return "LOW"
